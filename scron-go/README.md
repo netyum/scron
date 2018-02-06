@@ -80,18 +80,19 @@ iskill = 1
 ```
 
 ### scron_waring.conf
+```
 [dev]
-phones = 18502115125
+phones = 1234567890  123456789
 warning_script =
 
 [test]
-phones = 18502115125
+phones = 1234567890  123456789
 warning_script =
 
 [pro]
-phones = 23456
+phones = 1234567890  123456789
 warning_script =
-
+```
 
 cron_table_name是任务表名，host_table_name是主机表名, iskill=1表示超时后，会自动杀掉，不杀掉请设置成0
 
